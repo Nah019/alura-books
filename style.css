@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEFA;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to bottom, #191970, #87CEFA);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Fantasy', cursive;
+    color: #FFF;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+header #search-bar {
+    margin-top: 10px;
+    padding: 10px;
+    width: 60%;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.book {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.book img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.synopsis {
+    background-color: #B0C4DE;
+    padding: 20px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.synopsis p {
+    margin: 0;
+    color: #333;
+}
+
+footer {
+    background: linear-gradient(to top, #191970, #87CEFA);
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Fantasy', cursive;
+    position: relative;
+}
+
+footer #back-to-top {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer #back-to-top:hover {
+    background-color: #ddd;
+}
+
+/* Para o resultado de pesquisa */
+.hidden {
+    display: none;
+}
+
+#search-result p {
+    font-size: 1.5em;
+    color: #FFF;
+    text-align: center;
+}
